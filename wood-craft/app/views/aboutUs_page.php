@@ -11,11 +11,83 @@
 </head>
 
 <body>
-    <main id="main" class="main">
+<main id="main" class="main">
 
-       
+<div class="card card-with-background">
+    <div class="title-container">
+        <h1>Make Your Interior Minimalist & Modern</h1>
+        <h3>Delivering Comfort as a Priority: Quick and Easy Access to a Wide Variety of Furniture</h3>
+    </div>
+</div>
 
-    </main>
+<div class="card">
+    <div class="tab-logo-container">
+        <div class="tab-container">
+            <h1>What do we do...?</h1>
+            <p>With our well-experienced craftsmen, talented designers, and years of professional experience, 
+                we create interiors that are stimulating and sophisticated. Our portfolio features a range of designs, 
+                and we stay updated with current design trends to provide fresh creations for our customers.</p>
+
+            <br><h2>Our Vision</h2>
+            <p>We aim to be the best in providing total solutions in furniture and interiors, enhancing our clients' 
+                perceptions of functional and innovative design. Our designs elevate living and working environments uniquely.</p>
+
+            <br><h2>Our Mission</h2>
+            <p>WoodCraft is on a mission to recognize clients' needs and fulfill them with dedication and hard work. 
+                We insist on delivering quality and strive to build strong relationships with clients and industry partners.</p>
+        </div>
+
+        <div class="logo-container">
+            <img src="images/4.jpg" alt="Logo">
+        </div>
+    </div>
+</div>
+
+<div class="card team-card">
+    <div class="team">
+        <div class="team-title">
+            <h2>Meet Our Team...</h2>
+        </div>
+        <div class="team-container">
+
+            <div class="arrow-container">
+                <button class="prev-arrow" onclick="showPrevious()" aria-label="Previous"></button>
+            </div>
+
+            <div class="team-member">
+                <img src="images/img.png" alt="Team Member 1">
+                <h3>John Silva</h3>
+                <h3>Production Manager</h3>
+            </div>
+            <div class="team-member">
+                <img src="images/img.png" alt="Team Member 2">
+                <h3>Moris Perera</h3>
+            </div>
+            <div class="team-member">
+                <img src="images/img.png" alt="Team Member 3">
+                <h3>Zara Fernando</h3>
+            </div>
+            <div class="team-member">
+                <img src="images/img.png" alt="Team Member 4">
+                <h3>Peter Kol</h3>
+            </div>
+            <div class="team-member">
+                <img src="images/img.png" alt="Team Member 5">
+                <h3>Ann Dev</h3>
+            </div>
+            <div class="team-member">
+                <img src="images/img.png" alt="Team Member 6">
+                <h3>Fabri Zen</h3>
+            </div>
+
+            <div class="arrow-container">
+                <button class="next-arrow" onclick="showNext()" aria-label="Next"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</main>
 
     <script src="../public/assests/js/aboutUs_page.js"></script>
 
