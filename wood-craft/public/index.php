@@ -1,14 +1,14 @@
 <?php
 
 require_once '../app/config/database.php';
-require_once '../app/controllers/HomeController.php';
+require_once '../app/controllers/UserController.php';
 require_once '../app/models/UserModel.php';
 
 include('../app/views/aboutUs_page.php');
 
 try {
     $userModel = new UserModel($pdo);
-    $controller = new HomeController($userModel);
+    $controller = new UserController($userModel);
 
     $action = isset($_GET['action']) ? $_GET['action'] : 'index';
 
