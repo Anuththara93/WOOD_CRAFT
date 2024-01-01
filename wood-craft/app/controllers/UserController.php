@@ -2,7 +2,7 @@
 
 require_once '../app/models/UserModel.php';
 
-class HomeController {
+class UserController {
     private $userModel;
 
     public function __construct(UserModel $userModel) {
