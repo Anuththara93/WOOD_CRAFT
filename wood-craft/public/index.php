@@ -4,6 +4,8 @@ require_once '../app/config/database.php';
 require_once '../app/controllers/HomeController.php';
 require_once '../app/models/UserModel.php';
 
+include('../app/views/aboutUs_page.php');
+
 try {
     $userModel = new UserModel($pdo);
     $controller = new HomeController($userModel);
@@ -22,5 +24,3 @@ try {
 catch (Exception $e) {
     echo "Error: " . $e->getMessage();
 }
-
-?>
