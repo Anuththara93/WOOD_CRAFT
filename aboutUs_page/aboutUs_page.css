@@ -168,9 +168,3 @@ h1 {
 .next-arrow {
     right: -3.5px;
 }
-
-@media (max-width: 700px) {
-    .team-container {
-      flex-direction: column;
-    }
-}
