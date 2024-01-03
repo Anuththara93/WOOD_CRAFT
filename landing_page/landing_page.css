@@ -12,3 +12,30 @@ body {
     min-height: 100vh;
     box-sizing: border-box;
 }
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.card-member {
+    flex: 0 0 22%; 
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f3f3;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-member img {
+    max-width: 100%;
+    max-height: 100%;
+}
