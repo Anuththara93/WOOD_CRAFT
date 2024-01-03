@@ -169,7 +169,7 @@ h1 {
     right: -3.5px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .team-container {
       flex-direction: column;
     }
