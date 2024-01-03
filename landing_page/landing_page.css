@@ -14,13 +14,13 @@ body {
 }
 
 .section {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding: 20px;
 }
 
 .tab {
     display: flex;
-    margin-top: 30px;
+    margin-bottom: 60px;
     align-items: center;
     /* background-color: #fff; */
     /* border: 1px solid #ddd; */
@@ -30,39 +30,39 @@ body {
 
 .tab-title{
     flex: 1;
-    width: 700px;
-    margin: 50px auto;
-    padding: 50px;
-    text-align: center;
+    /* width: 200px; */
+    /* margin: 0px auto; */
+    /* padding: 50px; */
+    text-align: left;
 }
 
 .tab-description {
     flex: 1;
-    text-align: center;
+    text-align:justify;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
 }
 
 .card {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    /* padding: 20px; */
     
 }
 
 .card-member {
-    flex: 0 0 20%; 
-    padding: 20px;
-    height: 300px;
-    text-align: center;
+    flex: 0 0 19%; 
+    padding: 30px;
+    height: 250px;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #f4f3f3;
-    border: 1px solid #ddd;
+    align-items:baseline;
+    justify-content: left;
+    background-color: #edebeb;
+    /* border: 1px solid #ddd; */
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
 }
 
 .card-member img {
