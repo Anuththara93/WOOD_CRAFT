@@ -14,7 +14,6 @@ body {
 }
 
 .section {
-    /* margin-bottom: 20px; */
     padding: 20px;
 }
 
@@ -22,17 +21,10 @@ body {
     display: flex;
     margin-bottom: 60px;
     align-items: center;
-    /* background-color: #fff; */
-    /* border: 1px solid #ddd; */
-    /* border-radius: 10px; */
-    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
 }
 
 .tab-title{
     flex: 1;
-    /* width: 200px; */
-    /* margin: 0px auto; */
-    /* padding: 50px; */
     text-align: left;
 }
 
@@ -46,7 +38,6 @@ body {
 .card {
     display: flex;
     justify-content: space-between;
-    /* padding: 20px; */
     
 }
 
@@ -60,9 +51,7 @@ body {
     align-items:baseline;
     justify-content: left;
     background-color: #edebeb;
-    /* border: 1px solid #ddd; */
     border-radius: 10px;
-    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
 }
 
 .card-member img {
