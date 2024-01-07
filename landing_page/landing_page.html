@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="landing_page.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
   <title>Wood Craft</title>
 </head>
@@ -13,57 +14,122 @@
 <body>
   <main id="main" class="main">
 
-  <div class="section">
-    <h4>Benefits</h4>
+  <!-- Benefits -->
+    <div class="section-benefits">
+    <h4 class="with-small-line left-aligned">Benefits</h4>
 
-    <div class="tab">
-      <div class="tab-title">
+    <div class="tab-benefits">
+      <div class="tab-benefits-title">
           <h1>What Makes Us the Preferred Choice?</h1>
       </div>
 
-      <div class="tab-description">
+      <div class="tab-benefits-description">
           <p>********************
             *********************
           </p>
       </div>
      </div> 
 
-     <div class="card">
+     <div class="card-benefits">
 
-      <div class="card-member">
-        <box-icon type='solid' name='wallet'></box-icon>
+      <div class="card-benefits-member">
+        <i class='bx bxs-wallet'></i>
         <h3>Easy Payment</h3>
         <p>********************
             *********************
-          </p>               
+        </p>
       </div>
-      
-      <div class="card-member">
-        <box-icon type='solid' name='offer'></box-icon>
+    
+      <div class="card-benefits-member">
+        <i class='bx bxs-offer'></i>
         <h3>Promo Offers</h3>
         <p>********************
             *********************
-          </p>
+        </p>
       </div>
-
-      <div class="card-member">
-        <box-icon type='solid' name='truck'></box-icon>
+    
+      <div class="card-benefits-member">
+        <i class='bx bxs-truck'></i>
         <h3>Free Delivery</h3>
         <p>********************
             *********************
-          </p>
+        </p>
       </div>
-
-      <div class="card-member">
-        <box-icon type='solid' name='package'></box-icon>
+    
+      <div class="card-benefits-member">
+        <i class='bx bxs-package'></i>
         <h3>Easy Return</h3>
         <p>********************
             *********************
-          </p>
+        </p>
+      </div>
+    </div>    
+    </div>
+
+  <!-- Category -->
+  <div class="section-category">
+    <h4 class="with-small-line center-aligned">Category</h4>
+
+    <div class="tab-category">
+      <div class="tab-category-title">
+          <h1>Discover Our Unique Collection of Exclusive Categories.</h1>
+      </div>
+     </div> 
+
+     <div class="card-category">
+        <div class="category" id="category1">
+          <img src="images/office-cover.jpg" alt="Category 1 Cover">
+          <div class="category-info">
+              <h2>Office</h2>
+              <p>350+ items</p>
+              <a href="category1.html"><i class='chevron-right-circle'></i></a>
+          </div>
+        </div>
+
+        <div class="category" id="category2">
+            <img src="images/bedroom-cover.jpg" alt="Category 2 Cover">
+            <div class="category-info">
+                <h2>Bedroom</h2>
+                <p>350+ items</p>
+                <a href="category2.html"><i class='chevron-right-circle'></i></a>
+            </div>
+        </div>
+
+        <div class="category" id="category3">
+          <img src="images/livingroom-cover.jpg" alt="Category 3 Cover">
+          <div class="category-info">
+              <h2>Living Room</h2>
+              <p>350+ items</p>
+              <a href="category3.html"><i class='chevron-right-circle'></i></a>
+          </div>
+        </div>
+
+        <div class="category" id="category4">
+            <img src="images/kitchen-cover.jpg" alt="Category 4 Cover">
+            <div class="category-info">
+                <h2>Kitchen</h2>
+                <p>350+ items</p>
+                <a href="category4.html"><i class='chevron-right-circle'></i></a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Newsletter -->
+  <div class="section-newsletter">
+    <h4 class="with-small-line center-aligned-newsletter">Our Newsletter</h4>
+
+    <div class="tab-newsletter">
+      <div class="tab-newsletter-title">
+          <h1>Subscribe to Our Newsletter to Get Updates to Our Latest Furniture</h1>
       </div>
 
-     </div>
+      <div class="tab-newsletter-description">
+        <p>Get 20% off on your first order just by subscribing to our news letter</p>
+    </div>
+     </div> 
 
+     <div class="card-newsletter"></div>
   </div>
 
   </main>

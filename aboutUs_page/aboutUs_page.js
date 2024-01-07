@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Initially show the first three team members
     updateTeamMembers();
-});
+})
 
 
 
