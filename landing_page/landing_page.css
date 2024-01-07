@@ -38,7 +38,6 @@ body {
 .card {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .card-member {
@@ -52,6 +51,7 @@ body {
     justify-content: left;
     background-color: #edebeb;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .card-member img {
