@@ -17,30 +17,34 @@ body {
     padding: 20px;
 }
 
-.tab {
+.section-benefits{
+    background-color: #f9f9f9;
+}
+
+.tab-benefits {
     display: flex;
     margin-bottom: 60px;
     align-items: center;
 }
 
-.tab-title{
+.tab-benefits-title{
     flex: 1;
     text-align: left;
 }
 
-.tab-description {
+.tab-benefits-description {
     flex: 1;
     text-align:justify;
     margin: 0 auto;
     padding: 0px;
 }
 
-.card {
+.card-benefits {
     display: flex;
     justify-content: space-between;
 }
 
-.card-member {
+.card-benefits-member {
     flex: 0 0 19%; 
     padding: 30px;
     height: 250px;
@@ -54,13 +58,13 @@ body {
     margin-bottom: 10px;
 }
 
-.card-member img {
+.card-benefits-member img {
     max-width: 100%;
     max-height: 100%;
 }
 
 @media (max-width: 700px) {
-    .card {
+    .card-benefits {
       flex-direction: column;
     }
   }
