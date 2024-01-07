@@ -10,47 +10,37 @@ body {
 }
 
 /* header */
-h4 {
-    color: #769582;
-}
 
 .with-small-line {
     position: relative;
-    font-size: 1.5em;
     margin-bottom: 20px;
-    text-align: center;
-    color: #333;
+    color: #769582;
+}
+
+.with-small-line.left-aligned::before {
+    left: -15px;
+}
+
+.with-small-line.center-aligned::before {
+    left: 650px;
+    transform: translateX(-50%);
+}
+
+.with-small-line.center-aligned-newsletter::before {
+    left: 630px;
+    transform: translateX(-50%);
 }
 
 .with-small-line::before {
     content: "";
     position: absolute;
     top: 50%;
-    left: 50%;
     height: 2px;
-    width: calc(50% - 50px);
-    background-color: #000;
-    transform: translateX(-50%);
+    width: 10px;
+    background-color: #769582;
 }
 
-/* Benefits */
-/* .with-small-line.left-aligned::before {
-    left: -15px;
-}*/
-
-/* Category */
-/* .with-small-line.center-aligned::before {
-    left: -0px;
-    transform: translateX(-50%);
-} */
-
-/* Newsletter */
-/* .with-small-line.center-aligned-newsletter::before {
-    left: 36%;
-    transform: translateX(-50%);
-} */
-
-/* -------------------------------------------------------- */
+/* ----------------------------------------------------- */
 /* Benefits */
 .section-benefits {
     background-color: #f9f9f9;
@@ -73,7 +63,7 @@ h4 {
     flex: 1;
     text-align:justify;
     margin: 0 auto;
-    padding: 0px;
+    padding-left: 70px;
 }
 
 .card-benefits {
