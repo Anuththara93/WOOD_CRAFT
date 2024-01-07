@@ -123,6 +123,51 @@ body {
 .card-category {
 }
 
+.category {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+}
+
+.category-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #d81212; /* Set text color to contrast with the image */
+}
+
+.category-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.category-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.category-info a i {
+    font-size: 24px;
+}
+
+.category-info a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d7d3d3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* ----------------------------------------------------- */
 /* Newsletter */
 .section-newsletter{
     background-color: #f9f9f9;
