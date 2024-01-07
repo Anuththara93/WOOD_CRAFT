@@ -77,40 +77,49 @@
      </div> 
 
      <div class="card-category">
-        <div class="category" id="category1">
-          <img src="images/office-cover.jpg" alt="Category 1 Cover">
-          <div class="category-info">
-              <h2>Office</h2>
-              <p>350+ items</p>
-              <a href="category1.html"><i class='chevron-right-circle'></i></a>
+        <div class="card-category-half">
+          <div class="category" id="category1">
+            <img src="images/office-cover.jpg" alt="Category 1 Cover">
+            <div class="category-info">
+                <h2>Office</h2>
+                <p>350+ items</p>
+                <a href="category1.html"><i class='chevron-right-circle'></i></a>
+            </div>
           </div>
         </div>
 
-        <div class="category" id="category2">
-            <img src="images/bedroom-cover.jpg" alt="Category 2 Cover">
-            <div class="category-info">
-                <h2>Bedroom</h2>
-                <p>350+ items</p>
-                <a href="category2.html"><i class='chevron-right-circle'></i></a>
+        <div class="card-category-half">
+          <div class="card-category-quarter">
+            <div class="category" id="category2">
+              <img src="images/bedroom-cover.jpg" alt="Category 2 Cover">
+              <div class="category-info">
+                  <h2>Bedroom</h2>
+                  <p>350+ items</p>
+                  <a href="category2.html"><i class='chevron-right-circle'></i></a>
+              </div>
             </div>
-        </div>
-
-        <div class="category" id="category3">
-          <img src="images/livingroom-cover.jpg" alt="Category 3 Cover">
-          <div class="category-info">
-              <h2>Living Room</h2>
-              <p>350+ items</p>
-              <a href="category3.html"><i class='chevron-right-circle'></i></a>
           </div>
-        </div>
 
-        <div class="category" id="category4">
-            <img src="images/kitchen-cover.jpg" alt="Category 4 Cover">
-            <div class="category-info">
-                <h2>Kitchen</h2>
-                <p>350+ items</p>
-                <a href="category4.html"><i class='chevron-right-circle'></i></a>
+          <div class="card-category-quarter">
+            <div class="category" id="category3">
+              <img src="images/livingroom-cover.jpg" alt="Category 3 Cover">
+              <div class="category-info">
+                  <h2>Living Room</h2>
+                  <p>350+ items</p>
+                  <a href="category3.html"><i class='chevron-right-circle'></i></a>
+              </div>
             </div>
+
+            <div class="category" id="category3">
+              <img src="images/livingroom-cover.jpg" alt="Category 3 Cover">
+              <div class="category-info">
+                  <h2>Living Room</h2>
+                  <p>350+ items</p>
+                  <a href="category3.html"><i class='chevron-right-circle'></i></a>
+              </div>
+            </div>
+          </div>  
+        </div>
         </div>
     </div>
   </div>
@@ -129,7 +138,15 @@
     </div>
      </div> 
 
-     <div class="card-newsletter"></div>
+     <div class="card-newsletter">
+      <form id="subscribe-form">
+        <label for="email"><i class='bx bx-envelope'></i></label>
+        <box-icon name='envelope' type='solid' color='#51933d' ></box-icon>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <button type="submit">Subscribe</button>
+    </form>
+     </div>
   </div>
 
   </main>
