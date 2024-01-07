@@ -6,15 +6,53 @@ body {
 }
 
 .main {
-    /* padding: 20px; */
     min-height: 100vh;
 }
 
-/* .section {
-    padding: 60px;
+/* header */
+h4 {
+    color: #769582;
+}
+
+.with-small-line {
+    position: relative;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.with-small-line::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 2px;
+    width: calc(50% - 50px);
+    background-color: #000;
+    transform: translateX(-50%);
+}
+
+/* Benefits */
+/* .with-small-line.left-aligned::before {
+    left: -15px;
+}*/
+
+/* Category */
+/* .with-small-line.center-aligned::before {
+    left: -0px;
+    transform: translateX(-50%);
 } */
 
-.section-benefits, .section-newsletter{
+/* Newsletter */
+/* .with-small-line.center-aligned-newsletter::before {
+    left: 36%;
+    transform: translateX(-50%);
+} */
+
+/* -------------------------------------------------------- */
+/* Benefits */
+.section-benefits {
     background-color: #f9f9f9;
     margin-bottom: 70px;
     padding: 60px;
@@ -62,6 +100,7 @@ body {
     max-height: 100%;
 }
 
+/* category */
 .section-category{
     text-align: center;
     background-color: #ededed;
@@ -74,18 +113,27 @@ body {
     align-items: center;
 }
 
-.tab-category-title, .tab-newsletter-title{
+.tab-category-title {
     text-align: center;
 }
 
 .card-category {
 }
 
+/* Newsletter */
 .section-newsletter{
+    background-color: #f9f9f9;
+    margin-bottom: 70px;
+    padding: 60px;
     text-align: center;
 }
+
 .tab-newsletter {
     align-items: center;
+}
+
+.tab-newsletter-title {
+    text-align: center;
 }
 
 .tab-newsletter-description {
